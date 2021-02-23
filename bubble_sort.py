@@ -10,7 +10,6 @@ def bubble_sort(a):
         for j in range(len(a)-i-1):
             if a[j]>a[j+1]:
                 a[j],a[j+1]=a[j+1],a[j]
-    return a
+    print(a)
 n = [8, 5, 7, 0, 1, 3, 6, 9]
 e=bubble_sort(n)
-print(e)
